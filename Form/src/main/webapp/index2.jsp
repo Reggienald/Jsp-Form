@@ -11,7 +11,7 @@
 <jsp:include page="head_foot.jsp" />
 <h1>This is the second page</h1>
 
- //Behöver en foorloop?
+ //Behöver en String som är equal till request.getParameter("Stuff")?
 
 <% 
 if(request.getParameter("stuff").equals("1")){
